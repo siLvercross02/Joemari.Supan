@@ -125,8 +125,10 @@ footer{
     }
     .navbar-brand{
         padding-left: 3px;
+        font-size: 1.5rem;
     }
     #navbar-adjust{
         margin-right: .75rem;
     }
+
 }
