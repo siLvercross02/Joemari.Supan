@@ -1,0 +1,132 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+    margin 0;
+
+}
+
+.navbar {
+    background-color: #1fab89;
+    padding: 1% 0;
+    font-size: 1.2rem;
+    border-bottom: #3A1F5D 5px solid;
+}
+
+.navbar-brand{
+    min-height: 30px;
+    padding: 0 80px 0;
+    font-size: 2rem;
+    color: #F6F6F6;
+}
+
+
+.style-h2{
+    color: #3A1F5D;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav li a{
+    color: #F6F6F6;
+    font-size: 1rem;
+}
+
+.nav-adjust{
+    margin-right: 3rem;
+}
+
+.bg {
+    background: url(../img/image-bg.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+}
+
+.bg h3{
+    margin-top: 350px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 55px;
+    color: #F6F6F6;
+}
+
+.bg p{
+    font-size: 20px;
+    color: #F6F6F6;
+}
+
+.about{
+    padding: 15px;
+    color: #F6F6F6;
+    background: #1fab89;
+}
+
+#profile{
+    background: #f76160;
+}
+
+.skills-title{
+    color: #F6F6F6;
+    text-align: center;
+}
+
+#adjust{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.left{
+    margin-left: 2rem;
+}
+
+#adjustment{
+    text-align: center;
+}
+
+
+.about h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.cards{
+    background: #1fab89;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.col-adjust{
+    margin-top: 10px;
+}
+
+.bg-header-custom{
+    background-color: #3A1F5D !important;
+}
+
+footer{
+    padding: 20px;
+    color: #F6F6F6;
+    text-align: center;
+    background:#3A1F5D;
+}
+
+/* Media Query */
+
+@media(max-width: 768px){
+    .navbar{
+        float: none;
+        width: 100%;
+        padding-left: 2rem;
+    }
+    .navbar-brand{
+        padding-left: 3px;
+    }
+    #navbar-adjust{
+        margin-right: 2.75rem;
+    }
+}
