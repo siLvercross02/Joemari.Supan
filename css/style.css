@@ -130,5 +130,8 @@ footer{
     #navbar-adjust{
         margin-right: .75rem;
     }
+    .navbar-toggler{
+        font-size: 1.25rem;
+    }
 
 }
